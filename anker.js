@@ -1,5 +1,5 @@
 //starts
-//Author : Nazwa
+//Author : Aryoks
 //Hayolo numpang nama doang
 //Ckckckck
 //Mengaku yang bukan punya nya
@@ -451,8 +451,8 @@ async function starts() {
             const checkId = getLevelingId(sender)
             try {
                 if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
-                const amountXp = Math.floor(Math.random() * 10) + 500
-                const requiredXp = 5000 * (Math.pow(2, currentLevel) - 1)
+                const amountXp = Math.floor(Math.random() * 10) + 600
+                const requiredXp = 1000 * (Math.pow(2, currentLevel) - 1)
                 const getLevel = getLevelingLevel(sender)
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
